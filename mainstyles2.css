@@ -1,0 +1,101 @@
+.header{
+	background-color:#191C23;
+	padding
+}
+
+.nav{
+	margin:auto;
+	padding:25px 0;
+}
+
+.nav li {
+	display:inline;
+	float: right;
+	padding:20px;
+	color:#E2FBFB;
+	font-family: Lato, sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+}
+/*check to see if this looks the same as index.html*/
+.jumbotron {
+	background-image: url("images/jumbopic.png");
+	text-align:center;
+ color:#E2FBFB;
+	padding:50px;
+	height:600px;
+	background-size: cover;
+}
+
+
+/*This is in relation to opcaity, maybe add these to see fi i can do it, but make comment to hide until it makes sense to actually add */
+.examples {
+	background-color: black;
+}
+
+.family {
+		width: 300px;
+		height: 300px;
+		background-image: url("images/menu-restaurant-vintage-table.png");
+		opacity: .7;
+}
+
+.cocktails {
+		width: 300px;
+		height: 400px;
+		background-image: url("images/alcohol-bar-drinks-party.png");
+		opacity: .7;
+}
+
+.hipster {
+	width: 300px;
+	height: 300px;
+		background-image: url("images/pexels-photo.png");
+		opacity: .7;
+}
+
+.wine-bar {
+		width: 300px;
+		height: 300px;
+		background-image: url("images/pexels-photo-66636.png");
+		opacity: .7;
+}
+.casual {
+		width: 300px;
+		height: 300px;
+		background-image: url("images/restaurant-alcohol-bar-drinks.png");
+		opacity: .7;
+}
+.outdoor {
+		width: 300px;
+		height: 300px;
+		background-image: url("images/city-restaurant-lunch-outside.png");
+		opacity: .7;
+}
+
+.title-push {
+	margin-top: 270px;
+	color: #fff;
+}
+
+#login{
+  border: 1px solid white;
+  padding: 10px;
+}
+
+.footer{
+	background-color:#191C23;
+	color:#fff;
+	padding:30px 0;
+
+}
+
+.footer p {
+	font-family:Lato, sans-serif;
+	font-size:12px;
+  padding-right: 50px;
+}
+/*fix this do I need a separate id to make just the footnernav spaced out?*/
+#footernav {
+	word-spacing: 30px;
+}
