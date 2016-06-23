@@ -1,76 +1,91 @@
+body{
+font-family: 'Oswald', sans-serif;
+}
 .header{
+	margin-top: -20px;
 	background-color:#191C23;
-	padding
 }
 
 .nav{
-	margin:auto;
-	padding:25px 0;
+	padding:5px 0;
 }
 
 .nav li {
-	display:inline;
 	float: right;
+	display:inline;
 	padding:20px;
 	color:#E2FBFB;
 	font-family: Lato, sans-serif;
 	font-weight: 600;
 	font-size: 18px;
 }
+#login{
+  border: 1px solid white;
+  padding: 10px;
+	margin-top: 8px;
+}
+
 /*check to see if this looks the same as index.html*/
 .jumbotron {
 	background-image: url("images/jumbopic.png");
 	text-align:center;
- color:#E2FBFB;
+ 	color:#E2FBFB;
 	padding:50px;
 	height:600px;
 	background-size: cover;
+
 }
 
-
+#jumbo {
+	padding-top: 250px;
+}
 /*This is in relation to opcaity, maybe add these to see fi i can do it, but make comment to hide until it makes sense to actually add */
 .examples {
 	background-color: black;
 }
 
+.family,
+.cocktails,
+.hipster,
+.wine-bar,
+.casual,
+.outdoor {
+	width: 33.3%;
+	opacity: .7;
+	background-size: cover;
+}
 .family {
-		width: 300px;
-		height: 300px;
+
 		background-image: url("images/menu-restaurant-vintage-table.png");
-		opacity: .7;
+
 }
 
 .cocktails {
-		width: 300px;
-		height: 400px;
+
 		background-image: url("images/alcohol-bar-drinks-party.png");
-		opacity: .7;
+
 }
 
 .hipster {
-	width: 300px;
-	height: 300px;
+
 		background-image: url("images/pexels-photo.png");
-		opacity: .7;
+
 }
 
 .wine-bar {
-		width: 300px;
-		height: 300px;
+
 		background-image: url("images/pexels-photo-66636.png");
-		opacity: .7;
+
 }
 .casual {
-		width: 300px;
-		height: 300px;
+
 		background-image: url("images/restaurant-alcohol-bar-drinks.png");
-		opacity: .7;
+
 }
 .outdoor {
-		width: 300px;
-		height: 300px;
+
 		background-image: url("images/city-restaurant-lunch-outside.png");
-		opacity: .7;
+
 }
 
 .title-push {
@@ -78,9 +93,28 @@
 	color: #fff;
 }
 
-#login{
-  border: 1px solid white;
-  padding: 10px;
+
+.icons {
+	font-size: 5em;
+
+}
+.labels {
+	text-align: center;
+}
+.iconslabels{
+	margin-top: 100px;
+}
+
+.spotlight{
+	background-color: #28373B;
+	width:100%;
+}
+
+#media {
+	color:#ACACAC;
+	display: flex;
+	justify-content: center;
+	font-size: 4em;
 }
 
 .footer{
