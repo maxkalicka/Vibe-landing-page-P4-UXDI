@@ -1,21 +1,27 @@
 body{
-font-family: 'Oswald', sans-serif;
-}
-.header{
-	margin-top: -20px;
-	background-color:#191C23;
+/*font-family: */
+margin: 0px;
+padding: 0px;
 }
 
-.nav{
+.header{
+	/*margin-top: -20px;*/
+	background-color:#191C23;
 	padding:5px 0;
 }
 
+.nav{
+ width: 800px;
+ float: right;
+}
+
 .nav li {
+	font-family: 'Droid Sans', sans-serif;
 	float: right;
 	display:inline;
 	padding:20px;
 	color:#E2FBFB;
-	font-family: Lato, sans-serif;
+	/*Need font*/
 	font-weight: 600;
 	font-size: 18px;
 }
@@ -25,19 +31,61 @@ font-family: 'Oswald', sans-serif;
 	margin-top: 8px;
 }
 
-/*check to see if this looks the same as index.html*/
-.jumbotron {
-	background-image: url("images/jumbopic.png");
+/*.header {
+	margin-top: -20px;
+	background-color:#191C23;
+	display:inline;
+	padding:20px;
+	color:#E2FBFB;
+	font-family: Lato, sans-serif;
+	font-weight: 600;
+	font-size: 18px;
+	overflow:auto;
+	height:80px;
+}*/
+#headerlogo {
+	float: left;
+	padding:5px 0 0 0;
+
+}
+#login {
+	float: right;
+  border: 1px solid white;
+  padding: 10px;
+	margin-top: 8px;
+}
+
+
+.hero {
+	background-image: url("images/jumbopic3.png");
 	text-align:center;
  	color:#E2FBFB;
 	padding:50px;
 	height:600px;
-	background-size: cover;
-
+	background-size: cover
+	margin-bottom: 0px;
 }
 
-#jumbo {
-	padding-top: 250px;
+
+#tagline {
+	font-size: 5em;
+	padding-top: 100px;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+#examplesheader {
+	background-color:#28373B;
+	height:70px;
+	padding-top:5px;
+	margin: 0px;
+	overflow: auto;
+
+ }
+#ex{
+	font-family: 'Droid Serif', serif;
+	color:#ACACAC;
+	display:flex;
+	justify-content: center;
 }
 /*This is in relation to opcaity, maybe add these to see fi i can do it, but make comment to hide until it makes sense to actually add */
 .examples {
@@ -50,9 +98,10 @@ font-family: 'Oswald', sans-serif;
 .wine-bar,
 .casual,
 .outdoor {
-	width: 33.3%;
+	width: 33.33333%;
 	opacity: .7;
 	background-size: cover;
+	font-family: 'Droid Sans', sans-serif;
 }
 .family {
 
@@ -93,43 +142,50 @@ font-family: 'Oswald', sans-serif;
 	color: #fff;
 }
 
-
+/*play around with the class name. can i actually use fa fa-search etc fot he class and only have one*/
 .icons {
 	font-size: 5em;
-
 }
 .labels {
+	font-family: 'Droid Sans', sans-serif;
 	text-align: center;
 }
 .iconslabels{
 	margin-top: 100px;
 }
-
+/*will this work for the p's under the icons and labels?*/
+/*is droid serif the correct spelling??*/
+.iconslabels p {
+	font-family: 'Droid serif', serif;
+}
 .spotlight{
 	background-color: #28373B;
 	width:100%;
 }
 
 #media {
+	font-family: 'Droid Sans', sans-serif;
 	color:#ACACAC;
 	display: flex;
 	justify-content: center;
-	font-size: 4em;
+	font-size: 3.5em;
 }
+.applelogo {
+	float: right;
+	}
 
 .footer{
 	background-color:#191C23;
 	color:#fff;
-	padding:30px 0;
-
+	padding:20px 0;
 }
-
+/*does this css section include footer nav text??*/
 .footer p {
-	font-family:Lato, sans-serif;
+	font-family: 'Droid Sans', sans-serif;
 	font-size:12px;
   padding-right: 50px;
 }
 /*fix this do I need a separate id to make just the footnernav spaced out?*/
-#footernav {
+.footernav {
 	word-spacing: 30px;
 }
