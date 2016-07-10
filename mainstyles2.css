@@ -1,22 +1,18 @@
 body{
-/*font-family: */
+  font-family: 'Open Sans', sans-serif;
 margin: 0px;
 padding: 0px;
 }
-
 .header{
 	/*margin-top: -20px;*/
 	background-color:#191C23;
 	padding:5px 0;
 }
-
 .nav{
  width: 800px;
  float: right;
 }
-
 .nav li {
-	font-family: 'Droid Sans', sans-serif;
 	float: right;
 	display:inline;
 	padding:20px;
@@ -30,7 +26,6 @@ padding: 0px;
   padding: 10px;
 	margin-top: 8px;
 }
-
 /*.header {
 	margin-top: -20px;
 	background-color:#191C23;
@@ -46,7 +41,6 @@ padding: 0px;
 #headerlogo {
 	float: left;
 	padding:5px 0 0 0;
-
 }
 #login {
 	float: right;
@@ -54,8 +48,6 @@ padding: 0px;
   padding: 10px;
 	margin-top: 8px;
 }
-
-
 .hero {
 	background-image: url("images/jumbopic3.png");
 	text-align:center;
@@ -65,114 +57,107 @@ padding: 0px;
 	background-size: cover
 	margin-bottom: 0px;
 }
-
-
+/*mess around with the text color*/
 #tagline {
 	font-size: 5em;
-	padding-top: 100px;
-	font-family: 'Droid Sans', sans-serif;
+	padding-top: 50px;
+	color white;
 }
-
 #examplesheader {
 	background-color:#28373B;
-	height:70px;
-	padding-top:5px;
+	padding:15px 0px;
 	margin: 0px;
-	overflow: auto;
-
- }
-#ex{
-	font-family: 'Droid Serif', serif;
 	color:#ACACAC;
-	display:flex;
-	justify-content: center;
-}
+	text-align: center;
+	font-size: 1.8em;
+	color:#57BC83;
+ }
 /*This is in relation to opcaity, maybe add these to see fi i can do it, but make comment to hide until it makes sense to actually add */
 .examples {
-	background-color: black;
+	background-color:#191C23;
 }
-
 .family,
 .cocktails,
 .hipster,
 .wine-bar,
 .casual,
 .outdoor {
-	width: 33.33333%;
-	opacity: .7;
+	width: 33.33%;
+	opacity: .8;
 	background-size: cover;
-	font-family: 'Droid Sans', sans-serif;
 }
 .family {
-
 		background-image: url("images/menu-restaurant-vintage-table.png");
-
 }
-
 .cocktails {
-
 		background-image: url("images/alcohol-bar-drinks-party.png");
-
 }
-
 .hipster {
-
 		background-image: url("images/pexels-photo.png");
-
 }
-
 .wine-bar {
-
 		background-image: url("images/pexels-photo-66636.png");
-
 }
 .casual {
-
 		background-image: url("images/restaurant-alcohol-bar-drinks.png");
-
 }
 .outdoor {
-
 		background-image: url("images/city-restaurant-lunch-outside.png");
-
 }
-
 .title-push {
 	margin-top: 270px;
 	color: #fff;
 }
-
 /*play around with the class name. can i actually use fa fa-search etc fot he class and only have one*/
 .icons {
 	font-size: 5em;
 }
 .labels {
-	font-family: 'Droid Sans', sans-serif;
 	text-align: center;
 }
 .iconslabels{
-	margin-top: 100px;
+	margin: 100px 100px 100px 90px;
+}
+.center{
+	text-align: center;
+}
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
 }
 /*will this work for the p's under the icons and labels?*/
 /*is droid serif the correct spelling??*/
 .iconslabels p {
-	font-family: 'Droid serif', serif;
 }
 .spotlight{
 	background-color: #28373B;
 	width:100%;
+	padding: 50px;
 }
-
 #media {
-	font-family: 'Droid Sans', sans-serif;
 	color:#ACACAC;
 	display: flex;
 	justify-content: center;
-	font-size: 3.5em;
+	font-size: 1.8em;
+	color:#57BC83;
+}
+.iconsocial{
+	Float: right;
+  padding:6.5px;
 }
 .applelogo {
 	float: right;
-	}
+  position: relative;
+  bottom: 50px;
+  left: 122px;
+  }
 
 .footer{
 	background-color:#191C23;
@@ -181,7 +166,6 @@ padding: 0px;
 }
 /*does this css section include footer nav text??*/
 .footer p {
-	font-family: 'Droid Sans', sans-serif;
 	font-size:12px;
   padding-right: 50px;
 }
